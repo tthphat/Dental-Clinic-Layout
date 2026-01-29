@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+
+    --primary-color: #10375c;
+    --secondary-color: #2e80ce;
+    --third-color: #f6fbff;
+    --fourth-color: #eff6fd;
+
+    --text-color: #575f66;
+
+    --font: Sora, sans-serif;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 1.6rem;
+    font-size: var(--font);
+}
+
+
+.container{
+    width: 100%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
