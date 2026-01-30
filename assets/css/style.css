@@ -46,3 +46,63 @@
     min-width: 150px;
     line-height: 50px;
 }
+
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 8rem;
+}
+
+.hero__content{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 44%;
+}
+
+.hero__content h1{
+    font-size: 7rem;
+    color: #fff;
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+.hero__content p{
+    color: var(--text-secondary-color);
+    line-height: 1.7;
+    font-size: 1.8rem;
+}
+
+.hero__contact{
+    display: flex;
+    align-items: center;
+    gap: 4.5rem;
+}
+
+.hero__contact span{
+    color: #fff;
+    font-size: 1.8rem;
+}
+
+.hero__media{
+    display: flex;
+    align-items: center;
+}
+
+.hero__img--large{
+    width: 330px;
+    height: 540px;
+    border-radius: 8px;
+    object-fit: cover;
+    z-index: 1;
+}
+
+.hero__img--small{
+    width: 210px;
+    height: 410px;
+    border-radius: 8px;
+    object-fit: cover;
+    margin-left: -10px;
+}
+
