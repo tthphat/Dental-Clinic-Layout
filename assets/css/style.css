@@ -355,6 +355,102 @@
 
 /* End About */
 
+/* Doctor */
+.doctor{
+    padding: 150px 0;
+    background-color: #fff;
+}
 
+.doctor__inner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
 
+.doctor__title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
 
+.doctor__title h1{
+    font-size: 5rem;
+    font-weight: 600;
+    color: var(--primary-color);
+}
+
+.dentist{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+}
+
+.dentist__list{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 50px;
+}
+
+.dentist__item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;  
+}
+
+.dentist__item:hover img{
+    transform: scale(1.1);
+}
+
+.dentist__item h3{
+    color: var(--primary-color);
+}
+
+.dentist__item p{
+    font-size: 1.4rem;
+}
+
+.item__bg{
+    background-color: var(--fourth-color);
+    padding-top: 30px;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.dentist__item img{
+    object-fit: cover;
+    height: 290px;
+    width: 100%;   
+    display: block;
+    transition: .3s; 
+}
+
+.dentist__pagination{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.control__btn{
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #575f66;
+    cursor: pointer;
+    background-color: #fff;
+    transition: .3s;
+}
+
+.control__btn:hover{
+    color: #fff;
+    background-color: var(--secondary-color);
+    border-color: var(--secondary-color);
+}
+
+/* End Doctor */
