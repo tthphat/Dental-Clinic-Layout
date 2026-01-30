@@ -1,3 +1,48 @@
-.header{
-    
+.header {
+  background-color: var(--primary-color);
+}
+
+.header-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 0;
+}
+
+.header-top__nav-list {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  transition: all 0.3s ease;
+}
+
+.header-top__nav-list a:not(.active):hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.active {
+  color: white;
+  display: inline-flex;
+  align-items: center;
+}
+
+.active::before {
+  content: "";
+  padding: 3px;
+  border-radius: 50%;
+  background-color: white;
+  margin-right: 10px;
+  display: inline-block;
+}
+
+.header-top__action{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.btn-signup{
+    min-width: 150px;
+    line-height: 50px;
 }
