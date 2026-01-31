@@ -55,3 +55,28 @@ a{
     color: var(--secondary-color);
     background-color: white;
 }
+
+.blog__control{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.control__btn{
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #575f66;
+    cursor: pointer;
+    background-color: #fff;
+    transition: .3s;
+}
+
+.control__btn:hover{
+    color: #fff;
+    background-color: var(--secondary-color);
+    border-color: var(--secondary-color);
+}
