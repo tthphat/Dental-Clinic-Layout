@@ -588,6 +588,10 @@
 
 /* Appointment */
 
+.appointment{
+    padding: 100px 0;
+}
+
 .appointment__inner{
     background: #f6fbff;
     padding: 100px 178px;
